@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="RealEstate.API/RealEstate.API.csproj" />
+  <Project Path="RealEstate.Application/RealEstate.Application.csproj" />
+  <Project Path="RealEstate.Core/RealEstate.Core.csproj" />
+  <Project Path="RealEstate.DataAccess/RealEstate.DataAccess.csproj" />
+</Solution>
