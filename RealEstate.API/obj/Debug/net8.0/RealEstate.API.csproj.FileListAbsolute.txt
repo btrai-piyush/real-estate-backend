@@ -95,3 +95,4 @@ C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.AP
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.API\obj\Debug\net8.0\ref\RealEstate.API.dll
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.API\obj\Debug\net8.0\RealEstate.API.sourcelink.json

@@ -79,6 +79,22 @@
   },
   {
     "ContainingType": "RealEstate.API.Controllers.AccountingController",
+    "Method": "InsertJournal",
+    "RelativePath": "api/Accounting/Journal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RealEstate.Application.Dto.Accounting.CreateJournalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.API.Controllers.AccountingController",
     "Method": "InsertMasterGroup",
     "RelativePath": "api/Accounting/MasterGroup",
     "HttpMethod": "POST",
@@ -101,6 +117,38 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.API.Controllers.AccountingController",
+    "Method": "VerifyJournal",
+    "RelativePath": "api/Accounting/VerifyJournal",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RealEstate.Application.Dto.Accounting.VerifyJournalDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.API.Controllers.AccountingController",
+    "Method": "GetJournalVouchers",
+    "RelativePath": "api/Accounting/VoucherQuery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RealEstate.Application.Dto.Accounting.VoucherQueryDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

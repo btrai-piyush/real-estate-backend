@@ -1,6 +1,7 @@
 ﻿using RealEstate.Application.Dto.Accounting;
 using RealEstate.Core.Entities;
 using RealEstate.DataAccess.Dapper;
+using System.Text.Json;
 
 namespace RealEstate.Application.Services.Implementations
 {
@@ -105,6 +106,34 @@ namespace RealEstate.Application.Services.Implementations
             {
                 masterGroup.MasterGroupName,
                 masterGroup.MasterGroupNepali
+            });
+        }
+
+        public async Task InsertJournal(CreateJournalDto journal)
+        {
+            await _db.SaveDataAsync("dbo.spJournal_Insert", new
+            {
+                journal.UserID,
+                journal.EntryDate,
+                journal.ValueDate,
+                journal.BranchID,
+                JournalDetailsJson = JsonSerializer.Serialize(journal.JournalDetails)
+            });
+        }
+
+        public async Task<IEnumerable<VoucherResponseDto>> GetAllVouchers(VoucherQueryDto request)
+        {
+            var result = await _db.LoadDataAsync<VoucherResponseDto, dynamic>("dbo.spJournal_GetAll", new { request.JournalID, request.FromDate, request.ToDate });
+            return result;
+        }
+
+        public async Task VerifyJournal(VerifyJournalDto journal)
+        {
+            await _db.SaveDataAsync("dbo.spJournal_Verify", new
+            {
+                journal.JournalID,
+                journal.Verified,
+                journal.VerifiedBy
             });
         }
     }

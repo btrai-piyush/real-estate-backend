@@ -10,3 +10,4 @@ C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Da
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\refint\RealEstate.DataAccess.dll
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.pdb
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\ref\RealEstate.DataAccess.dll
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.sourcelink.json
