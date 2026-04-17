@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.application\\dto\\accounting\\journalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\dto\\accounting\\journalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5EC1A268-A733-FFE0-593C-A8869CCC8C37}|RealEstate.API\\RealEstate.API.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.api\\controllers\\accountingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EC1A268-A733-FFE0-593C-A8869CCC8C37}|RealEstate.API\\RealEstate.API.csproj|solutionrelative:realestate.api\\controllers\\accountingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.application\\dto\\accounting\\verifyjournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\dto\\accounting\\verifyjournaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.application\\services\\implementations\\accountingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.application\\services\\iaccountingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{445A7477-7170-DF9F-C4E9-38041FAD06F2}|RealEstate.Application\\RealEstate.Application.csproj|solutionrelative:realestate.application\\services\\iaccountingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88DDC1F6-3FEC-A53A-0012-66178A243B5B}|RealEstate.Core\\RealEstate.Core.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.core\\entities\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DDC1F6-3FEC-A53A-0012-66178A243B5B}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\entities\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88DDC1F6-3FEC-A53A-0012-66178A243B5B}|RealEstate.Core\\RealEstate.Core.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.core\\entities\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DDC1F6-3FEC-A53A-0012-66178A243B5B}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\entities\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88DDC1F6-3FEC-A53A-0012-66178A243B5B}|RealEstate.Core\\RealEstate.Core.csproj|c:\\users\\piyush bhattarai\\desktop\\realestate\\backend\\realestateapi\\realestate.core\\entities\\journaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DDC1F6-3FEC-A53A-0012-66178A243B5B}|RealEstate.Core\\RealEstate.Core.csproj|solutionrelative:realestate.core\\entities\\journaldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 168,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountingController.cs",
               "DocumentMoniker": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.API\\Controllers\\AccountingController.cs",
               "RelativeDocumentMoniker": "RealEstate.API\\Controllers\\AccountingController.cs",
               "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.API\\Controllers\\AccountingController.cs",
               "RelativeToolTip": "RealEstate.API\\Controllers\\AccountingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAuwK8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T08:18:54.063Z",
               "IsPinned": true,
@@ -62,7 +50,7 @@
               "RelativeDocumentMoniker": "RealEstate.Application\\Services\\Implementations\\AccountingService.cs",
               "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Application\\Services\\Implementations\\AccountingService.cs",
               "RelativeToolTip": "RealEstate.Application\\Services\\Implementations\\AccountingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T08:18:50.089Z",
               "IsPinned": true,
@@ -76,62 +64,10 @@
               "RelativeDocumentMoniker": "RealEstate.Application\\Services\\IAccountingService.cs",
               "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Application\\Services\\IAccountingService.cs",
               "RelativeToolTip": "RealEstate.Application\\Services\\IAccountingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T08:18:48.579Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JournalResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Application\\Dto\\Accounting\\JournalResponseDto.cs",
-              "RelativeDocumentMoniker": "RealEstate.Application\\Dto\\Accounting\\JournalResponseDto.cs",
-              "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Application\\Dto\\Accounting\\JournalResponseDto.cs",
-              "RelativeToolTip": "RealEstate.Application\\Dto\\Accounting\\JournalResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T08:31:03.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customers.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Core\\Entities\\Customers.cs",
-              "RelativeDocumentMoniker": "RealEstate.Core\\Entities\\Customers.cs",
-              "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Core\\Entities\\Customers.cs",
-              "RelativeToolTip": "RealEstate.Core\\Entities\\Customers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T08:18:08.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JournalDetails.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Core\\Entities\\JournalDetails.cs",
-              "RelativeDocumentMoniker": "RealEstate.Core\\Entities\\JournalDetails.cs",
-              "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Core\\Entities\\JournalDetails.cs",
-              "RelativeToolTip": "RealEstate.Core\\Entities\\JournalDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T08:17:26.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Journal.cs",
-              "DocumentMoniker": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Core\\Entities\\Journal.cs",
-              "RelativeDocumentMoniker": "RealEstate.Core\\Entities\\Journal.cs",
-              "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Core\\Entities\\Journal.cs",
-              "RelativeToolTip": "RealEstate.Core\\Entities\\Journal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T07:57:21.899Z",
               "EditorCaption": ""
             },
             {
@@ -157,6 +93,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VerifyJournalDto.cs",
+              "DocumentMoniker": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Application\\Dto\\Accounting\\VerifyJournalDto.cs",
+              "RelativeDocumentMoniker": "RealEstate.Application\\Dto\\Accounting\\VerifyJournalDto.cs",
+              "ToolTip": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.Application\\Dto\\Accounting\\VerifyJournalDto.cs",
+              "RelativeToolTip": "RealEstate.Application\\Dto\\Accounting\\VerifyJournalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:30:10.382Z",
+              "EditorCaption": ""
             }
           ]
         },

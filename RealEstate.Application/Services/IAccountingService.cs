@@ -13,5 +13,8 @@ namespace RealEstate.Application.Services
         Task<IEnumerable<GLGroup>> GetAllGLGroup();
         Task InsertGLHead(CreateGLHeadDto glHead);
         Task<IEnumerable<GLHead>> GetAllGLHead();
+        Task InsertJournal(CreateJournalDto journal);
+        Task<IEnumerable<VoucherResponseDto>> GetAllVouchers(VoucherQueryDto request);
+        Task VerifyJournal(VerifyJournalDto journal);
     }
 }

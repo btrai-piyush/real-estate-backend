@@ -130,5 +130,47 @@ namespace RealEstate.API.Controllers
                 return StatusCode(500, new { Message = "An error occurred while inserting the GL head.", Details = ex.Message });
             }
         }
+
+        [HttpPost("VoucherQuery")]
+        public async Task<IActionResult> GetJournalVouchers([FromBody] VoucherQueryDto request)
+        {
+            try
+            {
+                var journalVouchers = await _accountingService.GetAllVouchers(request);
+                return Ok(journalVouchers);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred while retrieving journal vouchers.", Details = ex.Message });
+            }
+        }
+
+        [HttpPost("Journal")]
+        public async Task<IActionResult> InsertJournal([FromBody] CreateJournalDto request)
+        {
+            try
+            {
+                await _accountingService.InsertJournal(request);
+                return Ok(new { Message = "Journal inserted successfully." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred while inserting the journal.", Details = ex.Message });
+            }
+        }
+
+        [HttpPatch("VerifyJournal")]
+        public async Task<IActionResult> VerifyJournal([FromBody] VerifyJournalDto request)
+        {
+            try
+            {
+                await _accountingService.VerifyJournal(request);
+                return Ok(new { Message = "Journal verified successfully." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Message = "An error occurred while verifying the journal.", Details = ex.Message });
+            }
+        }
     }
 }

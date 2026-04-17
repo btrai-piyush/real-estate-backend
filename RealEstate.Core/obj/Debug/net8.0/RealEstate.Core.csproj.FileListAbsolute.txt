@@ -9,3 +9,4 @@ C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Co
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Core\obj\Debug\net8.0\refint\RealEstate.Core.dll
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.pdb
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Core\obj\Debug\net8.0\ref\RealEstate.Core.dll
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Core\obj\Debug\net8.0\RealEstate.Core.sourcelink.json

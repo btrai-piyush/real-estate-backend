@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.Application.Dto.Accounting
 {
-    public class JournalResponseDto
+    public class VoucherResponseDto
     {
         public int JournalID { get; set; }
         public string EnteredBy { get; set; }
