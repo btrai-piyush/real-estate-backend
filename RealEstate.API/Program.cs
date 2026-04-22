@@ -7,10 +7,21 @@ using RealEstate.Application.Services.Implementations;
 using RealEstate.DataAccess.Dapper;
 using RealEstate.DataAccess.Dapper.Implementations;
 using System.Text;
+using static System.Net.WebRequestMethods;
+
+string[] allowedOrigins =
+{"https://realstate.planetearthsolutions.com.np",
+                        "http://localhost:3000",
+                        "https://localhost:433"
+};
 
 var builder = WebApplication.CreateBuilder(args);
 
-string UploadPath = builder.Configuration["FileStorage:UploadPath"]!;
+string UploadFolder = Path.Combine(Directory.GetCurrentDirectory(), builder.Configuration["FileStorage:UploadPath"]!);
+if (!Directory.Exists(UploadFolder))
+{
+    Directory.CreateDirectory(UploadFolder);
+}
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -34,6 +45,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPropertyService, PropertyService>();
 builder.Services.AddScoped<IAccountingService, AccountingService>();
 builder.Services.AddScoped<ICommonService, CommonService>();
+builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddTransient<FileService>();
 
 
@@ -75,39 +87,42 @@ builder.Services
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", builder =>
+
+    options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        builder.WithOrigins("http://localhost:3000")
-               .AllowAnyMethod()
-               .AllowAnyHeader()
-               .AllowCredentials();
+        policy.WithOrigins(allowedOrigins)
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .AllowCredentials();
     });
 });
 
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+app.UseSwagger();
+app.UseSwaggerUI(opts =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(opts =>
-    {
-        opts.SwaggerEndpoint("/swagger/v1/swagger.json", "Real Estate API v1");
-    });
-}
-
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider=new PhysicalFileProvider(UploadPath),
-    RequestPath= "/api/uploads"
+    opts.RoutePrefix = "";
+    opts.SwaggerEndpoint("/swagger/v1/swagger.json", "Real Estate API v1");
 });
 
 app.UseHttpsRedirection();
 
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(UploadFolder),
+    RequestPath = "/api/uploads"
+});
+
+
+app.UseRouting();
+
+app.UseCors("AllowSpecificOrigin");
+
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseCors("AllowAll");
 
 app.MapControllers();
 
