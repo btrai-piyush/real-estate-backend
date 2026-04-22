@@ -11,3 +11,16 @@ C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.Da
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.pdb
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\ref\RealEstate.DataAccess.dll
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\RealEstateAPI\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.sourcelink.json
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\bin\Debug\net8.0\RealEstate.DataAccess.deps.json
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\bin\Debug\net8.0\RealEstate.DataAccess.dll
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\bin\Debug\net8.0\RealEstate.DataAccess.pdb
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.AssemblyInfo.cs
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.sourcelink.json
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.dll
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\refint\RealEstate.DataAccess.dll
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\RealEstate.DataAccess.pdb
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.DataAccess\obj\Debug\net8.0\ref\RealEstate.DataAccess.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ZC2wwp1rMU=",
+  "dgSpecHash": "FVixmB/Inh4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\RealEstateAPI\\RealEstate.API\\RealEstate.API.csproj",
+  "projectFilePath": "C:\\Users\\Piyush Bhattarai\\Desktop\\RealEstate\\BackEnd\\real-estate-backend\\RealEstate.API\\RealEstate.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Piyush Bhattarai\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\Piyush Bhattarai\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
