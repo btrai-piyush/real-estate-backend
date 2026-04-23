@@ -69,7 +69,6 @@
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.7.1",
           "Microsoft.SqlServer.Server": "1.0.0",
           "System.Configuration.ConfigurationManager": "8.0.1",
-          "System.Diagnostics.DiagnosticSource": "8.0.1",
           "System.IdentityModel.Tokens.Jwt": "7.7.1",
           "System.Security.Cryptography.Pkcs": "8.0.1"
         },
@@ -232,9 +231,7 @@
       },
       "Microsoft.Identity.Client/4.80.0": {
         "dependencies": {
-          "Microsoft.IdentityModel.Abstractions": "8.14.0",
-          "System.Diagnostics.DiagnosticSource": "8.0.1",
-          "System.ValueTuple": "4.5.0"
+          "Microsoft.IdentityModel.Abstractions": "8.14.0"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Identity.Client.dll": {
@@ -351,7 +348,6 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/8.0.1": {},
       "System.Diagnostics.EventLog/8.0.1": {
         "runtime": {
           "lib/net8.0/System.Diagnostics.EventLog.dll": {
@@ -417,8 +413,7 @@
             "fileVersion": "8.0.23.53103"
           }
         }
-      },
-      "System.ValueTuple/4.5.0": {}
+      }
     }
   },
   "libraries": {
@@ -595,13 +590,6 @@
       "path": "system.configuration.configurationmanager/8.0.1",
       "hashPath": "system.configuration.configurationmanager.8.0.1.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/8.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-vaoWjvkG1aenR2XdjaVivlCV9fADfgyhW5bZtXT23qaEea0lWiUljdQuze4E31vKM7ZWJaSUsbYIKE3rnzfZUg==",
-      "path": "system.diagnostics.diagnosticsource/8.0.1",
-      "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
-    },
     "System.Diagnostics.EventLog/8.0.1": {
       "type": "package",
       "serviceable": true,
@@ -636,13 +624,6 @@
       "sha512": "sha512-+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg==",
       "path": "system.security.cryptography.protecteddata/8.0.0",
       "hashPath": "system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
-    },
-    "System.ValueTuple/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
-      "path": "system.valuetuple/4.5.0",
-      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     }
   }
 }

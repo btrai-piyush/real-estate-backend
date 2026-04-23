@@ -11,9 +11,8 @@ namespace RealEstate.Application.Services
     public interface IContactService
     {
         Task<OfficeContact> GetOfficeContact();
-        Task InsertContactMessage(ContactDto request);
+        Task InsertContactMessage(MessageDto request);
         Task InsertOfficeContact(OfficeContactDto request);
-        Task<List<ContactDto>> GetAllContactMessages();
-
+        Task<List<Messages>> GetAllMessages();
     }
 }

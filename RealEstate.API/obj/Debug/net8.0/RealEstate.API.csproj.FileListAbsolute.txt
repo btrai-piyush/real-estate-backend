@@ -194,3 +194,4 @@ C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEst
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.API\obj\Debug\net8.0\RealEstate.API.genruntimeconfig.cache
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.API\obj\Debug\net8.0\ref\RealEstate.API.dll
 C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.API\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\Piyush Bhattarai\Desktop\RealEstate\BackEnd\real-estate-backend\RealEstate.API\obj\Debug\net8.0\swae.build.ex.cache

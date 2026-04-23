@@ -10,7 +10,7 @@ using System.Text;
 using static System.Net.WebRequestMethods;
 
 string[] allowedOrigins =
-{"https://realstate.planetearthsolutions.com.np",
+{"https://realestate.planetearthsolutions.com.np",
                         "http://localhost:3000",
                         "https://localhost:433"
 };

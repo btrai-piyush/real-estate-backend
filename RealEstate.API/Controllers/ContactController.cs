@@ -16,7 +16,7 @@ namespace RealEstate.API.Controllers
         }
 
         [HttpPost("user-message")]
-        public async Task<IActionResult> InsertContactMessage([FromBody] ContactDto contactDto)
+        public async Task<IActionResult> InsertContactMessage([FromBody] MessageDto contactDto)
         {
             await _contactService.InsertContactMessage(contactDto);
             return Ok(new { Message = "Contact message inserted successfully." });
@@ -29,6 +29,20 @@ namespace RealEstate.API.Controllers
             {
                 var officeContact = await _contactService.GetOfficeContact();
                 return Ok(officeContact);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { Message = ex.Message });
+            }
+        }
+
+        [HttpGet("messages")]
+        public async Task<IActionResult> GetAllMessages()
+        {
+            try
+            {
+                var messages = await _contactService.GetAllMessages();
+                return Ok(messages);
             }
             catch (Exception ex)
             {
