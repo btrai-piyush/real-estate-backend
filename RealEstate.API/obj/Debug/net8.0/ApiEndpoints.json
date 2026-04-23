@@ -240,6 +240,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "RealEstate.API.Controllers.ContactController",
+    "Method": "GetContactInfo",
+    "RelativePath": "api/Contact/office-contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealEstate.API.Controllers.ContactController",
+    "Method": "InsertContactMessage",
+    "RelativePath": "api/Contact/user-message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contactDto",
+        "Type": "RealEstate.Application.Dto.Contact.MessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RealEstate.API.Controllers.PropertyController",
     "Method": "AddProperty",
     "RelativePath": "api/Property",

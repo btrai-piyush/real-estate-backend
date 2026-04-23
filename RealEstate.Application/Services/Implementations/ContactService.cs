@@ -18,9 +18,14 @@ namespace RealEstate.Application.Services.Implementations
             _db = db;
         }
 
-        public Task<List<ContactDto>> GetAllContactMessages()
+        public async Task<List<Messages>> GetAllMessages()
         {
-            throw new NotImplementedException();
+            var result = await _db.LoadDataAsync<Messages, dynamic>("spMessages_GetAll", new { });
+            if(result == null || result.Count == 0)
+            {
+                throw new Exception(message: "No messages found.");
+            }
+            return result;
         }
 
         public async Task<OfficeContact> GetOfficeContact()
@@ -34,9 +39,9 @@ namespace RealEstate.Application.Services.Implementations
             return result;
         }
 
-        public async Task InsertContactMessage(ContactDto request)
+        public async Task InsertContactMessage(MessageDto request)
         {
-            await _db.SaveDataAsync("spContactDetails_Insert", new
+            await _db.SaveDataAsync("spMessages_Insert", new
             {
                 Name = request.Name,
                 Email = request.Email,
