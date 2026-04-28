@@ -37,17 +37,38 @@ namespace RealEstate.API.Controllers
         }
 
         [HttpGet("messages")]
-        public async Task<IActionResult> GetAllMessages()
+        public async Task<IActionResult> GetAllMessages(int pageNumber)
         {
             try
             {
-                var messages = await _contactService.GetAllMessages();
+                var messages = await _contactService.GetAllMessages(pageNumber);
                 return Ok(messages);
             }
             catch (Exception ex)
             {
                 return NotFound(new { Message = ex.Message });
             }
+        }
+
+        [HttpPatch("toggle-read-status")]
+        public async Task<IActionResult> ToggleReadStatus([FromBody] string messageIds)
+        {
+            await _contactService.ToggleReadStatus(messageIds);
+            return Ok(new { Message = "Read status toggled successfully." });
+        }
+
+        [HttpPatch("mark-all-read")]
+        public async Task<IActionResult> MarkAllRead([FromBody] string messageIds)
+        {
+            await _contactService.MarkAllRead(messageIds);
+            return Ok(new { Message = "All messages marked as read successfully." });
+        }
+
+        [HttpDelete("messages")]
+        public async Task<IActionResult> DeleteMessage([FromBody] string messageIds)
+        {
+            await _contactService.DeleteMessage(messageIds);
+            return Ok(new { Message = "Message deleted successfully." });
         }
     }
 }

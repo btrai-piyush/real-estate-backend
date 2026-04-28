@@ -20,5 +20,6 @@ namespace RealEstate.Application.Dto.Accounting
         public string Reference { get; set; }
         public decimal DebitTotal { get; set; }
         public decimal CreditTotal { get; set; }
+        public int TotalCount { get; set; }
     }
 }
