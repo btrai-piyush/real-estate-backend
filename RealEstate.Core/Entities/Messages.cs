@@ -16,5 +16,7 @@ namespace RealEstate.Core.Entities
         public string Subject { get; set; }
         public string Message { get; set; }
         public bool ReadStatus { get; set; }
+        public DateTime AddedOn { get; set; }
+        public int TotalCount { get; set; }
     }
 }

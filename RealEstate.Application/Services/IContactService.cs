@@ -13,6 +13,9 @@ namespace RealEstate.Application.Services
         Task<OfficeContact> GetOfficeContact();
         Task InsertContactMessage(MessageDto request);
         Task InsertOfficeContact(OfficeContactDto request);
-        Task<List<Messages>> GetAllMessages();
+        Task<List<Messages>> GetAllMessages(int pageNumber);
+        Task ToggleReadStatus(string messageIds);
+        Task MarkAllRead(string messageIds);
+        Task DeleteMessage(string messageIds);
     }
 }

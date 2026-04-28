@@ -123,7 +123,7 @@ namespace RealEstate.Application.Services.Implementations
 
         public async Task<IEnumerable<VoucherResponseDto>> GetAllVouchers(VoucherQueryDto request)
         {
-            var result = await _db.LoadDataAsync<VoucherResponseDto, dynamic>("dbo.spJournal_GetAll", new { request.JournalID, request.FromDate, request.ToDate });
+            var result = await _db.LoadDataAsync<VoucherResponseDto, dynamic>("dbo.spJournal_GetAll", new { request.JournalID, request.FromDate, request.ToDate, request.PageNumber });
             return result;
         }
 
